@@ -20,6 +20,15 @@
         android:text="@string/show_message"/>
 
     <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:text="@string/name"/>
+
+    <TextView
         android:id="@+id/tv_welcome_message"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
