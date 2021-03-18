@@ -15,6 +15,7 @@ class MainActivity : AppCompatActivity() {
 
         activityMainBinding.btnShowMessage.setOnClickListener {
             val name = activityMainBinding.etName.text.trim().toString()
+            activityMainBinding.tvName.text = name
             activityMainBinding.tvWelcomeMessage.text = getString(R.string.welcome_msg, name)
         }
     }

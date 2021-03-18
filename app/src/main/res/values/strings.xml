@@ -3,4 +3,5 @@
     <string name="welcome_msg">Selamat datang %1$s di Android!</string>
     <string name="input_your_name">Input your name…</string>
     <string name="show_message">Show Message</string>
+    <string name="name">Name</string>
 </resources>
