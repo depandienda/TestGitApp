@@ -13,6 +13,9 @@ class MainActivity : AppCompatActivity() {
         activityMainBinding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(activityMainBinding.root)
 
-        activityMainBinding.tvWelcomeMessage.text = getString(R.string.welcome_msg, "Depandi Enda")
+        activityMainBinding.btnShowMessage.setOnClickListener {
+            val name = activityMainBinding.etName.text.trim().toString()
+            activityMainBinding.tvWelcomeMessage.text = getString(R.string.welcome_msg, name)
+        }
     }
 }
