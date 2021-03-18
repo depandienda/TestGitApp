@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">TestGitApp</string>
+    <string name="welcome_msg">Selamat datang %1$s di Android!</string>
 </resources>
